@@ -111,3 +111,6 @@ h2 {}
     left: initial;
     right: -70px;
 }
+.team-desc {
+    line-height: 1.7;
+}
