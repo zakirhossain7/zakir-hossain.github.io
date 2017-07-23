@@ -1,0 +1,113 @@
+/*Base CSS*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+a:focus,input:focus,textarea:focus,button:focus{outline: 0 solid}
+a:hover{text-decoration: none;}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin:0 0 15px;
+	font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #F5F5F5;
+}
+.section-padding{
+	padding: 80px 0;
+}
+
+h2 {}
+
+.section-title h2 {
+    text-transform: uppercase;
+    color: #00C2FF;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.section-title-sep {
+    position: relative;
+    width: 300px;
+    height: 2px;
+    background: #00C2FF;
+    margin: 0 auto 35px;
+}
+
+.section-title-sep:after {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 5px;
+    background: #00C2FF;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -2px;
+}
+.single-team {
+    background: #fff;
+    padding: 30px;
+}
+
+.single-team img {
+    max-width: 200px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+}
+.section-title {
+    margin-bottom: 50px;
+}
+
+.team-desc span {
+    color: #00C2FF;
+    font-size: 120%;
+}
+
+.team-desc .fa-quote-left {
+    padding-right: 10px;
+}
+
+.team-desc .fa-quote-right {
+    padding-left: 10px;
+}
+
+.single-team h4 {
+    color: #00C2FF;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.single-team h4 span {
+    display: block;
+    color: #909090;
+    font-size: 12px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.team-carousel .owl-nav div {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background: #00C2FF;
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+    line-height: 33px;
+    border-radius: 50%;
+    left: -70px;
+    top: 50%;
+    margin-top: -17.5px;
+}
+
+.team-carousel .owl-nav div.owl-next {
+    left: initial;
+    right: -70px;
+}
