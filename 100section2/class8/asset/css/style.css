@@ -108,21 +108,22 @@ body{
     margin-bottom: 50px;
 }
 .product-carousel .owl-nav div {
-    width: 30px;
-    height: 30px;
-    line-height: 28px;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
     color: #fff;
     background: #333;
     text-align: center;
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 21px;
     position: absolute;
-    left: -15px;
+    left: -20px;
     top: 50%;
-    margin-top: -65px;
+    margin-top: -75px;
+    opacity: .8;
 }
 
 .product-carousel .owl-nav div.owl-next {
     left: auto;
-    right: -15px;
+    right: -20px;
 }
