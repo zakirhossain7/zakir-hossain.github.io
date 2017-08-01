@@ -1,0 +1,128 @@
+/*Base CSS*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+a:focus,input:focus,textarea:focus,button:focus{outline: 0 solid}
+a:hover{text-decoration: none;}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin:0 0 15px;
+	font-weight: 700;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.section-padding{
+	padding: 80px 0;
+}
+
+.product-bg1{background: url(../img/man-1.jpg);}
+.product-bg2{background: url(../img/man-2.jpg);}
+.product-bg3{background: url(../img/man-3.jpg);}
+.product-bg4{background: url(../img/man-4.jpg);}
+.product-bg5{background: url(../img/man-5.jpg);}
+.product-bg6{background: url(../img/man-6.jpg);}
+
+
+.product-bg {
+    background-size: cover;
+    background-position: top center;
+    height: 320px;
+    position: relative;
+    z-index: 2;
+}
+
+.ticker {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    background: #333;
+    text-transform: uppercase;
+    font-size: 11px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.ticker-green {
+    background: #00BB99;
+}
+.ticker-red {
+    background: #FF413D;
+}
+
+.product-bottom-hover {
+    background: #fff;
+    position: absolute;
+    bottom: -20px;
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
+    border-right: 1px solid #EFEEEC;
+    border-bottom: 1px solid #EFEEEC;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.product-bottom-hover a {float: left;width: 33.33%;padding: 11px;color: #333;border-left: 1px solid #EFEEEC;border-top: 1px solid #EFEEEC;font-size: 18px;transition: .3s;}
+
+.product-bottom-hover a:hover {
+    background: #333;
+    color: #fff;
+}
+
+.product-bottom-hover a:hover .product-bottom-hover {
+    border-color: #333;
+}
+
+.single-product-box:hover .product-bottom-hover {
+    opacity: 1;
+    visibility: visible;
+    bottom: 20px;
+}
+
+.single-product-box h4 {
+    margin-top: 20px;
+    color: #636361;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.single-product-box p {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.section-title h2 {
+    margin-bottom: 50px;
+}
+.product-carousel .owl-nav div {
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    color: #fff;
+    background: #333;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    margin-top: -65px;
+}
+
+.product-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: -15px;
+}
