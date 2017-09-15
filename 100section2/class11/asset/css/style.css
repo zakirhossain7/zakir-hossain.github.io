@@ -70,11 +70,12 @@ body{
 }
 
 .pricing-sub-title {
-    background: #F1F0EE;
+    background: #f1f0ee;
     padding: 15px;
     text-align: center;
     text-transform: uppercase;
     margin: 0;
+    font-weight: 600;
 }
 
 .pricing-content {
