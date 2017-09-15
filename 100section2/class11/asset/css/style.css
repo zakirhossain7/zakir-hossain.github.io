@@ -1,0 +1,110 @@
+/*Base CSS*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+a:focus,input:focus,textarea:focus,button:focus{outline: 0 solid}
+a:hover{text-decoration: none;}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin:0 0 15px;
+	font-weight: 700;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.section-padding{
+	padding: 80px 0;
+}
+
+.pricing-title-wrap {
+    background-image: url(../img/slider_1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+
+.pricing-title-wrap h2 {
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.pricing-header {
+    display: table;
+    width: 100%;
+    background: #2B323E;
+    color: #fff;
+    height: 215px;
+    position: relative;
+    text-align: center;
+}
+.pricing-header h2 {
+    font-size: 50px;
+}
+.pricing-header-inner {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 30px;
+}
+
+.pricing-header-inner p {
+    color: #5F6063;
+}
+
+.special-price {
+    position: absolute;
+    left: 0;
+    background: #24292F;
+    width: 100%;
+    padding: 14px;
+    line-height: 20px;
+    color: #fff;
+    top: -48px;
+    text-transform: uppercase;
+}
+
+.pricing-sub-title {
+    background: #F1F0EE;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.pricing-content {
+    padding: 30px;
+}
+
+.pricing-content p {
+    line-height: 23px;
+}
+
+.pricing-content b {
+    padding-right: 5px;
+}
+
+.pricing-note {
+    font-size: 12px;
+    opacity: .6;
+    margin-left: -10px;
+}
+
+.pricing-list-wrap {
+    margin-top: -110px;
+}
+
+.content-block .row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.content-block .col-md-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
