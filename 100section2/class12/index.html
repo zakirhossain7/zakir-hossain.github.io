@@ -7,9 +7,10 @@
 	<link rel="stylesheet" href="asset/css/bootstrap.min.css">
 	<link rel="stylesheet" href="asset/css/font-awesome.min.css">
 	<link rel="stylesheet" href="asset/css/owl.carousel.min.css">	
+	<link rel="stylesheet" href="asset/css/modal-video.min.css">
 	<link rel="stylesheet" href="asset/css/style.css">
 
-	<script src="asset/js/jquery-1.12.4.min.js"></script>
+	
 </head>
 <body>
 	<div class="header-area header-absulate-area">
@@ -48,13 +49,17 @@
 				<div class="welcome-area-text">
 					<h4 class="text-uppercase">we build premium products.</h4>
 					<h1>lets make something great</h1>
-					<p class="play text-uppercase"><a href=""><i class="fa fa-play"></i></a>watch the video</p>
+					<p class="play text-uppercase"><a class="js-modal-btn" data-video-id="v9oxyswY8fs" href="#"><i class="fa fa-play"></i></a>watch the video</p>
 				</div>
 			</div>
 		</div>
 	</div>
+	<script src="asset/js/jquery.min.js"></script>
 	<script src="asset/js/bootstrap.min.js"></script>
-	<script src="asset/js/owl.carousel.min.js"></script>
-	<script src="asset/js/main.js"></script>	
+	<script src="asset/js/modal-video.min.js"></script>
+	<script src="asset/js/main.js"></script>
+	<script>
+	    $(".js-modal-btn").modalVideo();
+	</script>	
 </body>
 </html>
