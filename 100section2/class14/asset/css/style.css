@@ -91,5 +91,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     transition: .3s;
 }
 .single-portfolio:hover:after {
-    opacity: .8;
+    opacity: .9;
 }
